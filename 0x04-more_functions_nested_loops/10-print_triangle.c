@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_triangle - functions with int type argument
+ * print_triangle - function with int type argument
  * @size: int type 1st argument
  * Description: nested loops to print triangle
  * Return: 0
@@ -30,4 +30,3 @@ int a, b, c, d;
 		_putchar('\n');
 	}
 }
-
