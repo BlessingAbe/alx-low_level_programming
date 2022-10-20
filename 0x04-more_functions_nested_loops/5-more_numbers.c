@@ -10,7 +10,7 @@ int a, b;
 	a = 0;
 	while (a <= 9)
 	{
-		b == 0;
+		b = 0;
 		while (b <= 14)
 		{
 			if (b > 9)
