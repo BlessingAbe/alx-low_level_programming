@@ -10,6 +10,7 @@ int is_numerical(unsigned int n)
 {
 	return (n >= '0' &&  n <= '9');
 }
+
 /**
  * _atoi - convert a string to an integer
  * @s: String
@@ -32,7 +33,7 @@ int sign;
 		}
 		else if (s[i] == '-')
 		{
-			sign * = -1;
+			sign *= -1;
 		}
 	}
 	return (number * sign);
